@@ -1,0 +1,14 @@
+site_name: Implantación de Sistemas Operativos
+site_url: ""
+site_description: Documentación del módulo profesional Implantación de Sistemas Operativos
+theme:
+  name: readthedocs
+
+nav:
+  - Inicio: index.md
+  - Tema 1:
+      - Introducción: tema1.md
+      - Instalación del sistema operativo: tema1_1.md
+      - Configuración inicial y herramientas del sistema: tema1_2.md
+  - Acerca de: acerca.md
+
