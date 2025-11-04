@@ -1,20 +1,30 @@
-# Módulo: Implantación de Sistemas Operativos
+# Implantación de Sistemas Operativos
 
-Bienvenido al sitio web de documentación del módulo **Implantación de Sistemas Operativos**.
+Bienvenido a los apuntes del módulo profesional **Implantación de Sistemas Operativos (ISO)**.  
+En este sitio encontrarás los contenidos esenciales organizados por temas, con ejemplos, diagramas y recursos interactivos.
 
-En este sitio encontrarás los temas organizados, con apartados explicativos, ejemplos prácticos y recursos complementarios.
-
----
-
-## Contenidos
-
-- **Tema 1:** Instalación, configuración y explotación del sistema operativo
-- **Tema 2:** Administración de recursos y usuarios
-- **Tema 3:** Seguridad, mantenimiento y copia de seguridad
-- **Tema 4:** Virtualización y despliegue
+!!! info "Descarga de apuntes"
+    [📘 Descargar versión en PDF](pdf/implantacion_sistemas.pdf){: .md-button .md-button--primary }
 
 ---
 
-**Autor:** Departamento de Sistemas y Redes  
-**Ciclo Formativo:** Administración de Sistemas Informáticos en Red  
+## Objetivos del módulo
 
+- Conocer las funciones básicas de un sistema operativo.
+- Aprender los procesos de instalación, configuración y mantenimiento.
+- Gestionar el almacenamiento y los permisos del sistema.
+- Administrar usuarios, servicios y redes locales.
+- Automatizar tareas de gestión mediante scripts.
+
+---
+
+## Contenido
+
+- [Tema 1: Introducción a los sistemas operativos](tema1/introduccion.md)
+- [Tema 1.2: Instalación de sistemas operativos](tema1/instalacion.md)
+- [Acerca de](acerca.md)
+
+---
+
+!!! tip "Sugerencia"
+    Utiliza el menú de navegación lateral o la búsqueda superior para acceder rápidamente a cualquier contenido del sitio.

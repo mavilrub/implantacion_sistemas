@@ -1,10 +1,83 @@
+# --- Información general del sitio ---
 site_name: Implantación de Sistemas Operativos
+site_url: https://mavilrub.github.io/implantacion_sistemas/
+site_author: Oscar
+site_description: Apuntes y materiales del módulo de Implantación de Sistemas Operativos
+
+# --- Tema visual ---
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+# --- Extensiones Markdown ---
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+  - pymdownx.mark
+  
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# --- Navegación ---
 nav:
   - Inicio: index.md
-  - Tema 1:
-      - Introducción: tema1_1.md
-      - Instalación: tema1_2.md
+  - Tema 1: 
+      - Introducción a los sistemas operativos: tema1/introduccion.md
+      - Instalación de sistemas operativos: tema1/instalacion.md
+      - Conclusiones: tema1/conclusiones.md
   - Acerca de: acerca.md
-theme:
-  name: readthedocs
 
+# --- Plugins ---
+plugins:
+  - search
+  - pdf-export
+  - tags
+
+# --- Extras para personalización ---
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tuusuario/implantacion_sistemas
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+  generator: false
