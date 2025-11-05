@@ -1,0 +1,12 @@
+
+#### `docs/tema1/instalacion.md`
+```markdown
+# Instalación de sistemas operativos
+
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Seleccionar ISO del sistema]
+    B --> C[Crear máquina virtual]
+    C --> D[Instalar el sistema operativo]
+    D --> E[Configurar red y usuarios]
+    E --> F[Finalizar instalación]

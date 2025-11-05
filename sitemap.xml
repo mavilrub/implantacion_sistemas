@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mavilrub.github.io/implantacion_sistemas/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mavilrub.github.io/implantacion_sistemas/acerca/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mavilrub.github.io/implantacion_sistemas/tema1/conclusiones/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mavilrub.github.io/implantacion_sistemas/tema1/instalacion/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://mavilrub.github.io/implantacion_sistemas/tema1/introduccion/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
 </urlset>
